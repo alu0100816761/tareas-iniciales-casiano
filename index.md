@@ -1,101 +1,58 @@
-Tutorial NodeJS, Express, Atom, GitHub, Cloud9 y Markdown
-======================================================
+## Práctica: Tareas Iniciales ##
 
-## Instalación de NodeJS en Windows
+**Alexis Daniel Fuentes Pérez**
 
-Es un intérprete **Javascript** del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.
+### GitHub ###
 
-Para empezar a utilizarlo descargar el paquete de instalación para la plataforma windows y seguir los pasos del asistente de instalación de **NodeJS**.
+GitHub es una plataforma de desarrollo colaborativo para alojar proyectos usando el sistema de control de versiones Git.  
+  
+- Inicialmente tenemos que unirnos a la organización de la asignatura **@ULL-ESIT-GRADOII-PL**.
+- Luego realizamos un **fork** del repositorio, que consiste en realizar una copia personal de dicha repositorio.
+- **Clonamos** el repositorio en nuestro ordenador, por ejemplo, mediante la aplicación para escritorio *GitHub Desktop*.
+- Realizamos cambios en el repositorio para realizar un **commit**, añadirle una descripción y probar su funcionamiento.
+- Enviamos los cambios a nuestro repositorio utilizando **push**, o **sync** desde GitHub Desktop.  
 
-![](images/node.png)
+![](http://files.catbox.moe/g4pnru.png "GitHub Desktop alu0100816761")
 
-Abrimos la consola de **NodeJS** y comprobamos que se ha instalado correctamente, aparecerá el siguiente mensaje que indica que se ha instalado.
+- Por último, realizamos un **pull request**. Consiste en una solicitud de aprobación de tus cambios para añadirlos al repositorio. Es muy recomendado para su uso en la colaboración.  
 
-Instalamos el framework **Express** con la consola de **NodeJS** y el siguiente comando:
-
-**Comando**
-
-> `npm install express --save`
-
-![](images/node2.png)
-
-## Instalación del editor de texto Atom
-
-Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello descargamos el instalador en la página oficial de atom, y a continuación ejecutamos el asistente de instalación.
-
-![](images/atom1.png)
-
-Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
-
-**Comando**
-
-> * Markdown preview `ctrl+shift+m`
-> * Markdown export to HTML `Save As HTML`
+![](http://files.catbox.moe/n0pur1.png "GitHub Pull Request alu0100816761")
 
 
+### Node.JS ###
 
-## Instalación de GitHub Desktop
+Node.JS es una tecnología que permite trabajar con Javascript del lado del servidor. Está basado en el motor V8 de Javascript de Google.
 
-GitHub es una plataforma para alojar proyectos utilizando el sistema de control de versiones **Git**. Para instalarlo accedemos a la página oficial de **GitHub** y descargamos el instalador que ejecutaremos posteriormente para iniciar el asistente de instalación.
+Para instalarlo basta con entrar en web de [Node.JS](https://nodejs.org/en/ "Node.JS"), descargarlo para tu sistema operativo, e instalarlo.
 
-![](images/git.png)
+![](http://files.catbox.moe/8oe7qa.png "NPM alu0100816761")  
 
-Una vez instalado configuramos nuestra cuenta de **GitHub** en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de **GitHub**.
+### Express ###
 
-## Cloud 9
+Es un framework realizado en NodeJS que proporciona un conjunto robusto de facilidades para crear servidores web y recibir peticiones HTTP. Es muy ligero y flexible.
 
-Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
+Para instalarlo hay que introducir en la linea de comandos: `$ npm install express --save`
 
-![](images/cloud.png)
+### Git ###
 
-Si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a **Cloud9** para trabajar en él tan solo creando un “`nuevo workspace`” y añadiendo la url *git* del correspondiente repositorio.
+Git es un sistema de control de versiones distribuido que trabaja con instantáneas.
 
-![](images/cloud2.png)
+Para instalarlo nos dirigimos a [git-scm](http://git-scm.com/ "Git SCM"), descargamos la versión para nuestro sistema operativo, y la instalamos.
 
-Además **Cloud9** permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.
+![](http://files.catbox.moe/6yy729.png "Git alu0100816761")
 
-## Markdown
+### Pandoc ###
 
-Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto Atom ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.
+Pandoc es un traductor de Markdown a HTML.
 
-Sintaxis:
+Para instalarlo acudimos a su web [Pandoc.org](http://pandoc.org/ "Pandoc").
 
+![](http://files.catbox.moe/evprmg.png "Pandoc alu0100816761")
 
-Encabezados
-```
-# Encabezado H1
-## Encabezado H2
-### Encabezado H3
-```
-Tipografía
-```
-**Negrita**
-*Cursiva*
-> Citas
-Parrafo separar por lineas en blanco
-`Codigo`
-```
-Recursos
-```
-![Texto imagen](url-imagen)
-* [Links](https://example.com)
-```
-Listas
-```
-1. Lista 1
-2. Lista 2
+### Atom ###
 
-* Lista 1
-* Lista 2
-```
+Es un editor de código gratuito y libre desarrollado por GitHub.
 
-**Recursos:**
+Para instalarlo nos dirigimos a [Atom](https://atom.io/ "Atom.io"), y lo descargamos para la plataforma que queramos.
 
-* [NodeJS](https://nodejs.org)
-* [Express](http://expressjs.com)
-* [Atom IDE](https://atom.io)
-* [GitHub Desktop](https://desktop.github.com)
-* [GitHub Pages](https://pages.github.com/)
-* [Cloud 9 IDE](https://c9.io)
-* [Markdown](http://daringfireball.net/projects/markdown/)
-* [Resultado del Markdown HTML](http://alu0100536652.github.io/Tutorial-STW/)
+![](http://files.catbox.moe/1b11d9.png "Atom alu0100816761")
